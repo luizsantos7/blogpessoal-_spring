@@ -37,7 +37,7 @@ Entre os principais recursos que um blog pessoal oferece, destacam-se:
  
 <br />
  
-## 2. Sobre esta API
+## 2. Sobre a API criada.
  
 <br />
  
