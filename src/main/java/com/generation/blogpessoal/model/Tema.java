@@ -29,7 +29,8 @@ public class Tema {
 	@Pattern(regexp = "^[^0-9].*", message = "O atributo nao pode ser apenas numérico")
 	private String descricao;
 	
-	@OneToMany(fetch=FetchType.LAZY, mappedBy = "tema", cascade = CascadeType.REMOVE)
+	
+	@OneToMany(fetch=FetchType.EAGER, mappedBy = "tema", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("tema")
 	private List<Postagem> postagem;
 
